@@ -47,9 +47,11 @@ namespace ConsoleAppNumero
                 Console.WriteLine("O resultado será: " + conta);
                 Console.ReadKey();
             }
-
-            
-
+            else
+            {
+                Console.WriteLine("Operação inexistente");
+                Console.ReadKey();
+            }
         }
     }
 }
